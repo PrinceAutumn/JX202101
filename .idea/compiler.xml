@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="Eureka-Client2" />
+        <module name="HouseMaster" />
+        <module name="EureKa-Client3" />
+        <module name="EurekaClient1" />
+        <module name="EureKa-Server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Eureka-Client" target="11" />
+      <module name="Eureka-Server" target="11" />
+      <module name="Eureka-Server1" target="1.8" />
+      <module name="EurekaServer" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EureKa-Client3" options="-parameters" />
+      <module name="EureKa-Server" options="-parameters" />
+      <module name="Eureka-Client2" options="-parameters" />
+      <module name="Eureka-Server1" options="-parameters" />
+      <module name="EurekaClient1" options="-parameters" />
+      <module name="HouseMaster" options="-parameters" />
+    </option>
+  </component>
+</project>
