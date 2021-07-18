@@ -1,4 +1,4 @@
-package com.ckcj.web;
+package com.ckcj.eurekaclient3;
 
 public class ClientApplication {
 

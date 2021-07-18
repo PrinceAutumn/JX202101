@@ -1,4 +1,4 @@
-package com.cykj;
+package com.ckcj.eurekaclient3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
-public class EurekaClient2Application {
+public class EurekaClient3Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaClient2Application.class, args);
+        SpringApplication.run(EurekaClient3Application.class, args);
     }
 
 }

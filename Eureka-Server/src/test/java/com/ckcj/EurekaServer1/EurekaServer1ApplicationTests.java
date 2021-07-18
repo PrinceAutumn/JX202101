@@ -10,10 +10,7 @@ public class EurekaServer1ApplicationTests {
     @Test
     public void contextLoads() {
     }
-
-
     public static void main(String[] args) {
         SpringApplication.run(EurekaServer1Application.class, args);
     }
-
 }

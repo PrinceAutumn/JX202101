@@ -1,4 +1,4 @@
-package com.example.eurekaclient3;
+package com.ckcj.eurekaclient3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
