@@ -45,7 +45,9 @@ public RestTemplate getRestTemplate(){
         System.out.println(name);
          return "我有好多房子，"+name;
         //发送请求给房东
-        String remsg = restTemplate.getForObject(uri, String.class);
-        return "房东说"+remsg;
+
+//        URI uri;
+//        String remsg = restTemplate.getForObject(uri, String.class);
+//        return "房东说"+remsg;
     }
 }
